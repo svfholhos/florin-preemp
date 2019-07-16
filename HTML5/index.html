@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+    <meta name="author" content="Florin Holhos">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="css/style.css" class="rel">
+
+</head>
+
+<body id="root">
+    <header>
+        <nav id="navbar">
+            <ul class="navList">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about-us.html" target="_blank">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- content -->
+    <div>
+        <h1>Hello!</h1>
+    </div>
+
+    <p style="color: #222">Ce vrem noi...</p>
+    <img src="img/images2.jpg" alt="<img>" style=" max-width: 50%; border-radius: 5px; border: 2px solid #222">
+    <ol class="participantsList">
+        <li class="red">Trainers</li>
+        <li class="red">Students</li>
+        <li class="green">Coaches</li>
+    </ol>
+
+    <table border="2" style="border-color: #222; color: #222">
+        <thead>
+            <th>Name of Activity</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Theoretical presentation</td>
+                <td>A presentation containing info related to notions that you will use during bla bla...</td>
+                <td>&tilde; 3h</td>
+            </tr>
+            <tr>
+                <td>Practice what you learn</td>
+                <td>You will receive <span style="color: cyan">which need to be covered...</span></td>
+                <td>&tilde; 5h</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <div style="background-color:d arkcyan; ">
+    
+        <h3 style="color: #222">Res</h3>
+        <br>
+        <p style="color: #222">This is a paragraph</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/">HTML Samples</a></li>
+            <li><a href="https://www.w3schools.com/html/html_attributes.asp">HTML Attr.</a></li>
+            <li><a href="https://www.w3schools.com/html/html_elements.asp">HTML El.</a></li>
+        </ul>
+    
+    </div>
+
+    <!-- demo -->
+    <div id="demo"></div>
+
+
+    <footer style="text-align: center; padding: 2%;">
+        <div style="color: #fff">
+                <h4>Weather this week</h4>
+                <dl>
+                    <dt>Monday</dt>
+                        <dd>Sunny</dd>
+                    <dt>Tuesday</dt>
+                        <dd>Mostly Sunny</dd>
+                    <dt>Wednesday</dt>
+                        <dd>Hopefully sunny</dd>
+                </dl>
+        </div>
+        <article style="color: #fff">July 15 2019</article>
+    </footer>
+</body>
+
+<script>
+    let demo = document.getElementById('demo');
+    demo.innerHTML = "Hello HTML, I am JS!"
+    demo.style ="color: #222; text-align: center; font-weight: 600; font-size: 5vw; margin: 2% 0 2% 0";
+</script>
+
+</html>
